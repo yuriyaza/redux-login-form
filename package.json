@@ -1,8 +1,8 @@
 {
-  "name": "redux-login-form",
+  "name": "redux-practice-login-form",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://yuriyaza.github.io/redux-login-form/",
+  "homepage": "https://yuriyaza.github.io/redux-practice-login-form/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.3",
