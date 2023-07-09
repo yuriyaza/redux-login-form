@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='/redux-login-form'>
+    <BrowserRouter basename='/redux-practice-login-form'>
       <Provider store={store}>
         <App />
       </Provider>
