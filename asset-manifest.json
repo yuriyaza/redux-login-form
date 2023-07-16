@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/redux-practice-login-form/static/css/main.02877205.css",
-    "main.js": "/redux-practice-login-form/static/js/main.821b082e.js",
-    "index.html": "/redux-practice-login-form/index.html",
-    "main.02877205.css.map": "/redux-practice-login-form/static/css/main.02877205.css.map",
-    "main.821b082e.js.map": "/redux-practice-login-form/static/js/main.821b082e.js.map"
+    "main.css": "/redux-login-form/static/css/main.02877205.css",
+    "main.js": "/redux-login-form/static/js/main.b5d0538b.js",
+    "index.html": "/redux-login-form/index.html",
+    "main.02877205.css.map": "/redux-login-form/static/css/main.02877205.css.map",
+    "main.b5d0538b.js.map": "/redux-login-form/static/js/main.b5d0538b.js.map"
   },
   "entrypoints": [
     "static/css/main.02877205.css",
-    "static/js/main.821b082e.js"
+    "static/js/main.b5d0538b.js"
   ]
 }
