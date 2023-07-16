@@ -7,7 +7,7 @@ import { Products } from 'pages/Products/Products';
 import { Specifications } from 'pages/Specifications/Specifications';
 
 export const App = () => {
-  const isLoggedIn = useSelector(state => state.userState.isLoggedIn);
+  const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
 
   return (
     <>

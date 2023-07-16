@@ -3,7 +3,7 @@ import { LoginForm } from 'components/LoginForm/LoginForm';
 import { LogoutForm } from 'components/LogoutForm/LogoutForm';
 
 export const Header = () => {
-  const isLoggedIn = useSelector(state => state.userState.isLoggedIn);
+  const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
 
   return (
     <div>

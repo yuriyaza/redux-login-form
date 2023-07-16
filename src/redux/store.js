@@ -1,8 +1,8 @@
 const { configureStore } = require('@reduxjs/toolkit');
-const { userSlice } = require('./userSlice');
+const { auth } = require('./auth/slice');
 
 export const store = configureStore({
   reducer: {
-    userState: userSlice.reducer,
+    auth: auth.reducer,
   },
 });

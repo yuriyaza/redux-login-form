@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 
 export const useLogoutRedirect = () => {
-  const isLoggedIn = useSelector(state => state.userState.isLoggedIn);
+  const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
   const navigate = useNavigate();
 
   useEffect(() => {

@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { userSlice } from 'redux/userSlice';
+import { auth } from 'redux/auth/slice';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
@@ -8,7 +8,7 @@ export const LoginForm = () => {
     e.preventDefault();
 
     const userName = e.target.elements.userName.value;
-    dispatch(userSlice.actions.login(userName));
+    dispatch(auth.actions.login(userName));
 
     e.target.reset();
   };

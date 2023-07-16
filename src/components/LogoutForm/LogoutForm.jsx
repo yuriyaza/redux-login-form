@@ -1,13 +1,13 @@
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 import { useDispatch } from 'react-redux';
-import { userSlice } from 'redux/userSlice';
+import { auth } from 'redux/auth/slice';
 
 export const LogoutForm = () => {
-  const userName = useSelector(state => state.userState.userName);
+  const userName = useSelector(state => state.auth.userName);
   const dispatch = useDispatch();
 
   function handleLogout() {
-    dispatch(userSlice.actions.logout());
+    dispatch(auth.actions.logout());
   }
 
   return (
